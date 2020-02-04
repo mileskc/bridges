@@ -1,0 +1,13 @@
+
+
+.members {
+    width: 80%;
+    height: 500px;
+    border: solid black 1px;
+    margin: 0 auto;
+}
+
+.members h3 {
+    text-align: center;
+    padding: 230px 0;
+}
