@@ -3,8 +3,13 @@ import '../styles/contact.css'
 
 const Contact = () => {
   return(
-		<div>
-			<h1>Contact</h1>
+		<div className = "contact">
+			{/* <h1>Contact</h1> */}
+			<div className = "contactQs">
+				<h2>Want to book us?</h2>
+				<h2>Have any questions?</h2>
+				<h2>Say hello:</h2>
+			</div>
 			<form className = "contactForm">
 				<label for = "name">Name</label>
 				<input className = "nameInput" type = "text" name = "name"/>

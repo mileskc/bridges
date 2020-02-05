@@ -7,7 +7,7 @@ const About = () => {
     <div className = "about">
 			<h1>About</h1>
 			<h2>Brand Statement (NYC based vocal group etc...)</h2>
-			<h1>Members</h1>
+			{/* <h1>Members</h1> */}
 			<div className = "members">
 				{headshots.map(member => {
 					return(

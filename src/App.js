@@ -12,7 +12,9 @@ function App() {
       <Nav/>
       <Header/>
       <About/>
+      {/* <hr/> */}
       <Music/>
+      {/* <hr/> */}
       <Contact/>
     </div>
   );

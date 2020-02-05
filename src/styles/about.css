@@ -1,13 +1,13 @@
 
 
 .members {
-    width: 60%;
+    width: 65%;
     height: 600px;
-    border: solid black 1px;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: rgb(247, 247, 233);
 }
 
 .members h3 {
@@ -17,4 +17,10 @@
 
 .headshot {
     width: 150px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.memberName {
+    margin: 0
 }
