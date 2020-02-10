@@ -1,7 +1,12 @@
 .nav {
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
 }
 
 ul {
@@ -14,6 +19,7 @@ ul {
 li {
     margin: 5px;
     font-size: 1.5rem;
+    font-family: 'Cutive Mono', monospace;
 }
 
 .logo {

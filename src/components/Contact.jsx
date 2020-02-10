@@ -6,9 +6,9 @@ const Contact = () => {
 		<div className = "contact">
 			{/* <h1>Contact</h1> */}
 			<div className = "contactQs">
-				<h2>Want to book us?</h2>
-				<h2>Have any questions?</h2>
-				<h2>Say hello:</h2>
+				<h2>want to book us?</h2>
+				<h2>have any questions?</h2>
+				<h2>say hello:</h2>
 			</div>
 			<form className = "contactForm">
 				<label for = "name">Name</label>

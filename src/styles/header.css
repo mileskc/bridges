@@ -1,6 +1,16 @@
 .header {
+	margin-top: 0;
 	background-image: url('https://i.imgur.com/9YR8r9T.jpg');
-	background-position: 0 -150px;
-	height: 500px;
+	background-position: 0 -50px;
+	height: 600px;
 	background-size: cover;
+}
+
+.header h1 {
+	padding-top: 130px;
+	margin: 0;
+	font-family: 'Raleway', 'Sans-Serif';
+	font-weight: bolder;
+	font-size: 40px;
+	letter-spacing: 1rem;
 }

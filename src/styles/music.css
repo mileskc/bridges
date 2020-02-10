@@ -1,3 +1,18 @@
 .music {
-    margin: 50px;
+    width: 100%;
+    margin: 0;
+    /* margin: 50px; */
+    font-family: 'Cutive Mono', monospace;
+    /* background-color: rgb(253, 251, 239); */
+    background-color: rgb(233, 240, 249);
+}
+
+.music h1 {
+    margin: 0;
+    padding: 50px 0 50px 0;
+}
+
+.music p {
+    margin: 0;
+    padding: 40px;
 }

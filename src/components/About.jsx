@@ -13,12 +13,11 @@ const About = () => {
 					return(
 					<div>
 						<img className = "headshot" src={member.img}/>
-						<h1 className = "memberName">{member.name}</h1>
+						<h4 className = "memberName">{member.name}</h4>
 					</div>
 					)
 				}
 				)}
-				<h3>There will be a grid of individual headshots in this space</h3>
 			</div>
 		</div> 
   )
