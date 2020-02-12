@@ -23,7 +23,8 @@
 }
 
 .members {
-    width: 1150px;
+    /* width: 1150px; */
+    width: 90%;
     margin: 150px auto 40px auto;
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +39,6 @@
 .members h3 {
     text-align: center;
     padding: 230px 0;
-    
 }
 
 .headshot {
@@ -54,6 +54,7 @@
     font-weight: lighter;
     font-size: 25px;
     color: rgb(54, 54, 54);
+    text-align: center;
 }
 
 @media only screen and (max-width: 700px) {
