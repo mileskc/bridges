@@ -17,6 +17,18 @@
 	text-shadow: 2px 2px 2px gray;
 }
 
+@media only screen and (max-width: 700px) {
+	.header {
+		height: 400px;
+		background-position: 0px 80px;
+	}
+
+	.header h1 {
+		font-size: 2rem;
+		letter-spacing: .75rem;
+	}
+}
+
 @media only screen and (max-width: 500px) {
 	.header {
 		height: 300px;
@@ -28,3 +40,4 @@
 		letter-spacing: .75rem;
 	}
 }
+
