@@ -1,10 +1,17 @@
 .music {
-    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 100px 0;
+    display: flex;
+    justify-content: center;
     margin: 0;
     /* margin: 50px; */
     font-family: 'Cutive Mono', monospace;
     /* background-color: rgb(253, 251, 239); */
-    background-color: rgb(233, 240, 249);
+    /* light blue */
+    /* background-color: rgb(233, 240, 249); */
+    background-color: rgb(61, 107, 198);
+    color: white;
 }
 
 .music h1 {
@@ -15,4 +22,15 @@
 .music p {
     margin: 0;
     padding: 40px;
+}
+
+.video {
+    width: 50%;
+    /* background-color: white; */
+    padding: 20px;
+}
+
+iframe {
+    border: solid 10px rgb(255, 255, 255) ;
+    border-radius: 5px;
 }

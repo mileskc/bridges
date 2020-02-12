@@ -1,5 +1,7 @@
 .footer {
     padding: 4vh 0 4vh 0;
     /* background-color: rgb(255, 244, 228); */
-    background-color: rgb(253, 251, 239);
+/*     
+    background-color: rgb(253, 251, 239); */
+    font-family: 'Raleway', sans-serif;
 }
