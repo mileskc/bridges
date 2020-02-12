@@ -5,13 +5,11 @@
     display: flex;
     justify-content: center;
     margin: 0;
-    /* margin: 50px; */
     font-family: 'Cutive Mono', monospace;
-    /* background-color: rgb(253, 251, 239); */
-    /* light blue */
-    /* background-color: rgb(233, 240, 249); */
     background-color: rgb(61, 107, 198);
     color: white;
+    border-bottom: solid black 1px;
+    width: 100%;
 }
 
 .music h1 {
@@ -26,11 +24,25 @@
 
 .video {
     width: 50%;
-    /* background-color: white; */
     padding: 20px;
 }
 
 iframe {
-    border: solid 10px rgb(255, 255, 255) ;
+    border: solid 10px rgb(255, 255, 255);
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .video {
+        width: 90%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 90%;
+        border: none;
+    }
+
 }

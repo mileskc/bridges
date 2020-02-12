@@ -6,7 +6,7 @@ import fb from '../images/f_logo_RGB-Blue_144.png'
 const Nav = () => {
   return ( 
     <div className = "nav">
-      <a className ="link" href="#homeSection"><img className = "logo" src='https://i.imgur.com/NkM7cZx.jpg'/></a>
+      <a className ="link" href="#homeSection"><img className = "logo" src='https://i.imgur.com/edAoLyj.png'/></a>
       <div className = "links">
         <ul>
           <a className ="link" href="#aboutSection"><li>About</li></a>
