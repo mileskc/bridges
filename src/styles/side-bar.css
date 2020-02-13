@@ -5,11 +5,14 @@
     right: 0;
     display: flex;
     width: 40%;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: rgba(61, 107, 198, .9);
+    /* background-color: gray; */
     float: right;
-    height: 150px;
+    height: 100vh;
     margin: 0;
     padding: 0;
+    color: white;
+
 }
 .barLinks {
     display: flex;
@@ -19,15 +22,19 @@
     width: 100%;
     margin: 0px;
     padding: 0;
+    height: 90vh;
+    
 }
 
 li {
-    margin: 5px;
+    margin: 30px;
+    color: white;
 }
 
 #closeModal {
     text-align: right;
     width: 100%;
     font-size: 2rem;
-    margin: 0px 5px 0px 0px;
+    margin: 10px 10px 0px 0px;
+    height: 50px;
 }
