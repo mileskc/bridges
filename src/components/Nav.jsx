@@ -8,13 +8,14 @@ const Nav = () => {
     <div className = "nav">
       <a className ="link" href="#homeSection"><img className = "logo" src='https://i.imgur.com/edAoLyj.png'/></a>
       <div className = "links">
-        <ul>
+        <ul className = "navLinks">
           <a className ="link" href="#aboutSection"><li>About</li></a>
           <a className ="link" href="#musicSection"><li href="#">Music</li></a>
           <a className ="link" href="#contactSection"><li href="#">Contact</li></a>
         </ul>
         <a target="_blank" href="https://www.instagram.com/bridges_vocalgroup/"><img className = "insta" src={insta}/></a>
         <a target="_blank" href="https://www.facebook.com/bridgesvocalgroup/"><img className = "fb" src = {fb}/></a>
+        <p className = "hamButton">☰</p>
       </div>
     </div>
   )

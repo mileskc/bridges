@@ -61,3 +61,24 @@ a {
     display: flex;
     align-items: center;
 }
+
+.hamButton {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navLinks {
+        display: none;
+    }
+
+    .hamButton {
+        display: block;
+        font-size: 50px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .insta {
+        margin-right: 0px;
+    }
+ 
+}

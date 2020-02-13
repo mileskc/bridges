@@ -18,7 +18,7 @@
 }
 
 .contactForm {
-	height: 50vh;
+	height: 40vh;
 	display: flex;
 	flex-direction: column;
 	width: 30%;
@@ -51,6 +51,13 @@ button {
 	color: white;
 	font-size: 1.5rem;
 	border-radius: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+
+	.contactForm {
+		height: 70vh;
+	}
 }
 
 @media only screen and (max-width: 600px) {
