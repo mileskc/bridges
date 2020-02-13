@@ -11,14 +11,15 @@ const Contact = () => {
 					<h2>say hello:</h2>
 				</div>
 			</a>
-			<form className = "contactForm" name="contact" method="post" netlify>
+			<form className = "contactForm" name="contact" method="post">
+				<input type="hidden" name="form-name" value="contact" />
 				<label for = "name">Name</label>
 				<input className = "nameInput" type = "text" name = "name"/>
 				<label for = "email">Email</label>
 				<input className = "emailInput" type = "text" name = "email"/>
 				<label for = "message">Message</label>
 				<textarea className = "messageInput" type = "text"/>
-				<button>SEND</button>
+				<button type="submit">SEND</button>
 			</form>
 		</div>
 	)
