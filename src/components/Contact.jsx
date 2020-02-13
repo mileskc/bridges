@@ -11,7 +11,7 @@ const Contact = () => {
 					<h2>say hello:</h2>
 				</div>
 			</a>
-			<form className = "contactForm">
+			<form className = "contactForm" name="contact" netlify>
 				<label for = "name">Name</label>
 				<input className = "nameInput" type = "text" name = "name"/>
 				<label for = "email">Email</label>
