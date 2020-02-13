@@ -18,7 +18,7 @@ const Contact = () => {
 				<label for = "email">Email</label>
 				<input className = "emailInput" type = "text" name = "email"/>
 				<label for = "message">Message</label>
-				<textarea className = "messageInput" type = "text"/>
+				<textarea className = "messageInput"></textarea>
 				<button type="submit">SEND</button>
 			</form>
 		</div>
