@@ -6,10 +6,9 @@
     display: flex;
     width: 40%;
     background-color: rgba(61, 107, 198, .9);
-    /* background-color: gray; */
     float: right;
-    min-height: -webkit-fill-available;
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    height: 300px;
     margin: 0;
     padding: 0;
     color: white;
@@ -18,18 +17,17 @@
 }
 .barLinks {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
     width: 100%;
     margin: 0px;
     padding: 0;
     height: 90vh;
-    
 }
 
 .sideLink {
-    margin: 30px;
+    margin: 20px;
     color: white;
 }
 
