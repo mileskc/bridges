@@ -6,9 +6,9 @@ const SideBar = (props) => {
       <div className = "SideBar">
 				<p onClick={()=>props.toggleBar()} id = "closeModal">X</p>
         <ul className = "barLinks">
-          <a className ="link" href="#aboutSection"><li>About</li></a>
-          <a className ="link" href="#musicSection"><li href="#">Music</li></a>
-          <a className ="link" href="#contactSection"><li href="#">Contact</li></a>
+          <a className ="link" href="#aboutSection"><li className = "sideLink">About</li></a>
+          <a className ="link" href="#musicSection"><li className = "sideLink" href="#">Music</li></a>
+          <a className ="link" href="#contactSection"><li className = "sideLink" href="#">Contact</li></a>
         </ul>
       </div>
     )

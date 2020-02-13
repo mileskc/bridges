@@ -84,5 +84,9 @@ a {
     .insta {
         margin-right: 0px;
     }
+
+    li {
+        color: black;
+    };
  
 }
