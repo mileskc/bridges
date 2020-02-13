@@ -6,12 +6,14 @@ import About from './components/About'
 import Music from './components/Music'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import SideBar from './components/SideBar'
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Header/>
+      {/* <SideBar/> */}
       <About/>
       {/* <hr/> */}
       <Music/>

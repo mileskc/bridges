@@ -1,0 +1,33 @@
+.SideBar {
+    position: fixed;
+    flex-wrap: wrap;
+    top: 0;
+    right: 0;
+    display: flex;
+    width: 40%;
+    background-color: rgba(255, 255, 255, .5);
+    float: right;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.barLinks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+}
+
+#closeModal {
+    text-align: right;
+    width: 100%;
+    font-size: 2rem;
+    margin: 0px 5px 0px 0px;
+}
