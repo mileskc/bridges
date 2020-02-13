@@ -8,7 +8,7 @@ const About = () => {
 			<a id="aboutSection">
 				<h1>About</h1>
 			</a>
-			<h2>Brand Statement (NYC based vocal group etc...)</h2>
+			<h2>NYC-Based Vocal Group</h2>
 			{/* <h1>Members</h1> */}
 			<div className = "members">
 				{headshots.map(member => {
